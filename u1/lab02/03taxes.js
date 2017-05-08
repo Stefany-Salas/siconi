@@ -1,0 +1,26 @@
+var honorarios = Number(process.argv[2]);
+var iva = honorarios * .16;
+var subtotal = honorarios + iva;
+var retencion = (iva*2)/3;
+var isr = honorarios * .10;
+var total = (subtotal - retencion - isr);
+var pago = iva - retencion;
+var neto = total - pago;
+
+console.log('-------------Taxes-------------');
+console.log(`|Honorarios: $${honorarios}`);
+console.log('-------------------------------');
+console.log(`|IVA: $${iva}`);
+console.log('-------------------------------');
+console.log(`|SubTotal: $${subtotal}`);
+console.log('-------------------------------');
+console.log(`|Retencion IVA: -$${retencion}`);
+console.log('-------------------------------');
+console.log(`|ISR: -$${isr}`);
+console.log('-------------------------------');
+console.log(`|Total: $${total}`);
+console.log('-------------------------------');
+console.log(`|Pago IVA: $${pago}`);
+console.log('-------------------------------');
+console.log(`|Neto: $${neto}`);
+console.log('-------------------------------');

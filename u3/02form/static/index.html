@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi pagina</title>
+    <!-- Cargando los estilos de Boostrap -->
+    <link
+        rel="stylesheet"
+        href="vendor/bootstrap/dist/css/bootstrap.min.css">
+    <!-- Cargando el estilo -->
+    <link
+        rel="stylesheet"
+        href="vendor/bootstrap/dist/css/bootstrap-theme.min.css">
+    <!-- Cargando estilos -->
+    <link rel="stylesheet" href="css/site.css">
+    <!-- Cargando los estilos de sweet alert -->
+    <link rel="stylesheet"
+    href= "vendor\sweetalert\dist\sweetalert.css">
+</head>
+<body style="background: #CCCCCC">
+    <div class="bs-example">
+        <form 
+            required
+            action="/"
+            method="POST"
+            style="padding-top: 10px;"
+            class="form-horizontal">
+            <div class="form-group">
+                <label for="" class="control-label col-xs-6">
+                    <h2>DATOS DEL PRODUCTO</h2>
+                </label>
+            </div>
+            <div class="form-group">
+                <label 
+                    for="inputNombre" 
+                    class="control-label col-xs-2">
+                    Nombre
+                </label>
+                <div class="col-xs-5">
+                    <input
+                        class="form-control" 
+                        type="text"
+                        name="nombre"
+                        id="inputNombre"
+                        placeholder="Nombre"
+                        required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label 
+                    for="inputMarca" 
+                    class="control-label col-xs-2">
+                    Marca
+                </label>
+                <div class="col-xs-5">
+                    <input
+                        class="form-control" 
+                        type="text"
+                        name="marca"
+                        id="inputMarca"
+                        placeholder="Marca"
+                        required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label 
+                    for="inputModelo" 
+                    class="control-label col-xs-2">
+                    Modelo
+                </label>
+                <div class="col-xs-5">
+                    <input
+                        class="form-control" 
+                        type="text"
+                        name="modelo"
+                        id="inputModelo"
+                        placeholder="Modelo"
+                        required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label 
+                    for="inputCantidad" 
+                    class="control-label col-xs-2">
+                    Cantidad
+                </label>
+                <div class="col-xs-5">
+                    <input
+                        class="form-control" 
+                        type="text"
+                        name="cantidad"
+                        id="inputCantidad"
+                        placeholder="Cantidad"
+                        required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label 
+                    for="inputPrecio" 
+                    class="control-label col-xs-2">
+                    Precio
+                </label>
+                <div class="col-xs-5">
+                    <input
+                        class="form-control" 
+                        type="text"
+                        name="precio"
+                        id="inputPrecio"
+                        placeholder="Precio"
+                        required>
+                </div>
+            </div>
+            <!-- Seccion de envio -->
+            <div class="form-group">
+                <div class="col-xs-offset-2 col-xs-10">
+                    <input 
+                        type="submit"
+                        class="btn btn-primary"
+                        value="ENVIAR">
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- Cargando a Jquery -->
+    <script 
+        src="vendor/jquery/dist/jquery.min.js"></script>
+    <!-- Cargando Boostrap -->
+    <script 
+        src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- Cargar script de sweet alert -->
+    <script src="vendor\sweetalert\dist\sweetalert.min.js">
+    </script>
+    <!-- Cargar scripts -->
+    <script src='js/site.js'> </script>
+</body>
+</html>

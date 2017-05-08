@@ -1,0 +1,23 @@
+{
+  "name": "lab01-basic-server",
+  "version": "1.0.0",
+  "description": "Servidor de texto basico",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "#"
+  },
+  "keywords": [
+    "text",
+    "server"
+  ],
+  "author": "@pxndrozitx.lindx",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}

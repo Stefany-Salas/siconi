@@ -1,0 +1,25 @@
+{
+  "name": "simple-static-server",
+  "description": "Servidor estatico simple",
+  "main": "server.js",
+  "authors": [
+    "Stefany Salas"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "static",
+    "server"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ], 
+  "dependencies":{
+    "sweetalert":"1.1.3",
+    "bootstrap":"3.3.7"
+  }
+}
